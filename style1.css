@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    width:100%;
+    background:rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height:60vh;
+    width:550px;
+    background-color:rgb(0, 0, 0) ;
+    border:2px solid rgb(255, 251, 251);
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px 5px red;
+overflow: hidden;
+}
+
+.box #disp{
+    height:10vh;
+    width:100%;
+    color:rgb(211, 242, 6);
+    font-size: 40px;
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    font-weight: bold;
+    /* padding-top: 15px; */
+    line-height:10vh;
+}
+
+.box form{
+    height:35vh;
+    width:100%;
+    background-color: white;
+    line-height: 45vh;
+text-align:center;
+}
+
+.box form input{
+    width:130px;
+     border:none;
+     outline:none;
+     border-bottom:3px rgb(0, 0, 0);
+     color:rgb(0, 0, 0);
+     background-color:transparent;
+     font-size:60px;
+     text-align:center;
+}
+
+.box form input::placeholder{
+    font-size: 20px;
+    color:black;
+    font-weight:700px; 
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+    margin:0;
+}
+
+.box .btn{
+    height:15vh;
+    width:100%;
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.box .btn button{
+    padding:5px 10px;
+    font-size: 25px;
+    background-color: #292828;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition: 0.5s;
+
+}
+
+.box .btn button:hover{
+background-color:#8e44ad;
+}
+
+.stopwbutton {
+    background-color: #292828;
+    color:white;
+    margin-top:700px;
+    padding:10px 30px;
+    font-size: 25px;
+cursor:pointer;
+font-weight: bold;
+}
+.stopwbutton:hover{
+    background-color:#8e44ad; 
+}
